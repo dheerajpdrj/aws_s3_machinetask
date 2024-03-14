@@ -1,4 +1,6 @@
-// API DOCUMENTATION
+                                                API DOCUMENTATION
+
+                                                
                                                Authentication Endpoints
                           -------------------------------------------------------
 
@@ -68,7 +70,7 @@ POST http://localhost:3000/buckets/create \
 2.  List Buckets
     Endpoint: GET /buckets/list
     Description: Lists all buckets owned by the authenticated user.
-    
+
     Request Headers:
     Authorization: Bearer [JWT Token]
 
