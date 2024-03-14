@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+require("dotenv").config();
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const authRoutes = require("./src/routes/authRoutes");
@@ -10,7 +11,6 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(cors());
-
 
 // MongoDB connection
 mongoose.connect("mongodb://localhost:27017/aws-service");

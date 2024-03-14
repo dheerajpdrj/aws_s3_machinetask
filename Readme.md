@@ -1,6 +1,34 @@
+Project Overview:
+
+This project aims to create a simple AWS S3-like service using Node.js and Express.js and MongoDB as the Database. The service allows users to perform basic operations such as creating buckets, uploading objects to buckets, listing objects in buckets, and deleting objects from buckets. It also provides user authentication using JWT tokens.
+
+Getting Started:
+
+To get started with this project, follow these steps:
+
+1. Clone the Repository:
+https://github.com/dheerajpdrj/aws_s3_machinetask.git
+
+2. Install Dependencies:
+cd aws-s3-like-service
+npm install
+
+3. Set Up MongoDB:
+Install MongoDB on your local machine if you haven't already.
+Create a MongoDB database named aws-service.
+
+4. Start the Server:
+npm start
+
+
+
+
+
+
+
                                                 API DOCUMENTATION
 
-                                                
+
                                                Authentication Endpoints
                           -------------------------------------------------------
 
